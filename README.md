@@ -6,4 +6,6 @@ We intend SEPs to be the primary mechanisms for proposing major data model chang
 
 SEPs are filed by SBOL editors in a dedicated issue tracker on github. If not withdrawn, an SEP will eventually be put to a vote by the SBOL community.
 
-[View List of SEPs](https://github.com/SynBioDex/SEPs/issues)
+### View List of SEPs:
+
+[all in chronological order](https://github.com/SynBioDex/SEPs/issues?q=is%3Aissue+sort%3Acreated-asc)
