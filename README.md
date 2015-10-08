@@ -5,3 +5,5 @@ SEP stands for SBOL Enhancement Proposal. A SEP is a design document providing i
 We intend SEPs to be the primary mechanisms for proposing major data model changes, for collecting community input on an issue, and for documenting the design decisions that have gone into SBOL. The SEP authors are responsible for building consensus within the community and documenting dissenting opinions.
 
 SEPs are filed by SBOL editors in a dedicated issue tracker on github. If not withdrawn, an SEP will eventually be put to a vote by the SBOL community.
+
+[View List of SEPs](https://github.com/SynBioDex/SEPs/issues)
