@@ -1,4 +1,4 @@
-SEP 002 -- SEP Template Document <replace title with your own>
+SEP 002 -- <Your short descriptive title>
 ===================================
 
 < Note 1: remove/replace all instructions given within "< >" >
