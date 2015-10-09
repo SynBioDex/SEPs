@@ -8,4 +8,5 @@ SEPs are filed by SBOL editors in a dedicated issue tracker on github. If not wi
 
 ### View List of SEPs:
 
-[all in chronological order](https://github.com/SynBioDex/SEPs/issues?q=is%3Aissue+sort%3Acreated-asc)
+[in chronological order](https://github.com/SynBioDex/SEPs/issues?q=is%3Aissue+sort%3Acreated-asc)
+
