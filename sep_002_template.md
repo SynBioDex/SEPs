@@ -32,6 +32,7 @@ Table of Content  <remove TOC if SEP is rather short>
 * [5. Discussion](#discussion)
   * 5.1 discussion point
   * 5.2 discussion point
+* [6. Competing SEPs](#competing_seps)
 * [References](#references)
 * [Copyright](#copyright)
 
@@ -76,6 +77,9 @@ Table of Content  <remove TOC if SEP is rather short>
 
 ### 5.2 discussion point
 
+6. Competing SEPs <a name='competing_seps'></a>
+
+< list competing SEP #'s >
 
 References <a name='references'></a>
 ----------------
