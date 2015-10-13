@@ -20,7 +20,7 @@ Abstract
 
 < insert short summary >
 
-Table of Content  <remove TOC if SEP is rather short>
+Table of Contents  <remove TOC if SEP is rather short>
 ---------------------
 
 * [1. Rationale](#rationale) <or, if you prefer, 'Motivation'>
