@@ -8,6 +8,7 @@ SEP                     | <leave empty>
 ----------------------|--------------
 **Title**                | <Your short descriptive title (44 character max)>
 **Authors**           | <Author1 name (author1mail at xxmail com), Author2 name (author mail at yyy com)>
+**Editor**            | <leave empty>
 **Type**               | <choose from: Procedure OR Data Model>
 **SBOL Version** | <SBOL version this proposal should apply to; remove line if Type==Procedure>
 **Replaces**        | <list SEP(s) this proposal would replace, otherwise remove line. E.g. SEP #1> 
