@@ -22,7 +22,7 @@
     </coordinates>
     <panel_attributes>*ComponentDerivation*
 --
-
+-strategy[0..1] : URI
 </panel_attributes>
     <additional_attributes/>
   </element>
