@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>306</x>
+      <y>504</y>
+      <w>189</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*ModuleDefinition*
+--
+-roles[0..*]: URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>459</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Interaction*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>540</y>
+      <w>135</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>modules
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>576</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>functionalComponents
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;60.0;40.0;60.0;40.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>531</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Module*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>477</y>
+      <w>135</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>interactions
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;60.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>603</y>
+      <w>90</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>*Functional*
+*Component*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>513</y>
+      <w>99</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>models
+lt=&lt;-&gt;&gt;&gt;&gt;
+0..*
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>558</y>
+      <w>99</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>tests
+lt=&lt;-&gt;&gt;&gt;&gt;
+0..*
+fg=red</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>504</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Model*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>558</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Test*
+fg=red
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>306</x>
+      <y>540</y>
+      <w>189</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>-productionStatus[0..*]: URI
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>306</x>
+      <y>261</y>
+      <w>189</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*
+--
+-types[1..*]: URI
+-roles[0..*]: URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>216</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+*Annotation*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>297</y>
+      <w>135</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>sequenceConstr...
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>333</y>
+      <w>135</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>components
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;60.0;40.0;60.0;40.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>288</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+*Constraint*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>234</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>sequenceAnn...
+lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;60.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>360</y>
+      <w>90</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>*Component*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>270</y>
+      <w>99</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>sequences
+lt=&lt;-&gt;&gt;&gt;&gt;
+0..*
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>315</y>
+      <w>99</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>tests
+lt=&lt;-&gt;&gt;&gt;&gt;
+0..*
+fg=red</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>261</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Sequence*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>315</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Test*
+fg=red
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>306</x>
+      <y>306</y>
+      <w>198</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>-productionStatus[0..*]: URI
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
