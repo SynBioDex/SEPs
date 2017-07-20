@@ -4,23 +4,26 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>150</y>
+      <x>20</x>
+      <y>90</y>
       <w>150</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes>*Test*
+    <panel_attributes>*Attachment*
 --
-protocol[0..1]: URI
-attachments[0..*]: URI
+source[1]: URI
+format[0..1]: URI
+size[0..1]: LongInt
+hash[0..1]: String
+
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>100</y>
+      <x>90</x>
+      <y>40</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -30,12 +33,12 @@ attachments[0..*]: URI
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>80</y>
+      <x>20</x>
+      <y>20</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*Identified*</panel_attributes>
+    <panel_attributes>*TopLevel*</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
