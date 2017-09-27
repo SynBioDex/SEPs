@@ -9,10 +9,13 @@
       <w>150</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes>*Test*
+    <panel_attributes>*Attachment*
 --
-protocol[0..1]: URI
-attachments[0..*]: URI
+source[1]: URI
+format[0..1]: URI
+size[0..1]: LongInt
+hash[0..1]: String
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -35,7 +38,7 @@ attachments[0..*]: URI
       <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*Identified*</panel_attributes>
+    <panel_attributes>*TopLevel*</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
