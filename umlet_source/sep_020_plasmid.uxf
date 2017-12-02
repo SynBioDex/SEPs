@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>30</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*
+--
+-name: pJE101
+-description: "expression
+    plasmid encoding ..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>270</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>*_Implementation_*
+--
+-name: "exp01010 clone a"
+-displayID: "exp01010a"
+-description: "plasmid DNA from 
+   miniprep of clone a, 12/12/2017"
+bg=#ffff00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>50</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+design</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>50</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+sequence</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>30</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
