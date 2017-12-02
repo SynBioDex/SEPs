@@ -23,8 +23,8 @@ bg=#ffff00</panel_attributes>
     </coordinates>
     <panel_attributes>_prov:Activity_
 --
-(optional, provO 
-usage t.b.d.)
+(provO terms 
+t.b.d.)
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -48,7 +48,8 @@ design</panel_attributes>
       <w>130</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>_C.Definition_
+    <panel_attributes>_Comp.Definition_
+--
 bg=#92d050</panel_attributes>
     <additional_attributes/>
   </element>
@@ -139,8 +140,8 @@ design</panel_attributes>
     </coordinates>
     <panel_attributes>_prov:Activity_
 --
-(optional, provO 
-usage t.b.d.)
+(provO terms
+t.b.d.)
 </panel_attributes>
     <additional_attributes/>
   </element>

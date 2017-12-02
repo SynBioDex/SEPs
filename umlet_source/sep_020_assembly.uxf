@@ -15,7 +15,7 @@ bg=#ffff00</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
+      <x>230</x>
       <y>410</y>
       <w>310</w>
       <h>130</h>
@@ -29,7 +29,7 @@ bg=#ffff00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
+      <x>510</x>
       <y>500</y>
       <w>170</w>
       <h>40</h>
@@ -41,7 +41,7 @@ prov:hadPlan</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>660</x>
       <y>500</y>
       <w>140</w>
       <h>40</h>
@@ -77,7 +77,7 @@ bg=#92d050</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
+      <x>270</x>
       <y>360</y>
       <w>30</w>
       <h>140</h>
@@ -100,7 +100,7 @@ prov:wasGeneratedBy</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>660</x>
       <y>450</y>
       <w>140</w>
       <h>40</h>
@@ -111,7 +111,7 @@ prov:wasGeneratedBy</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
+      <x>510</x>
       <y>450</y>
       <w>170</w>
       <h>40</h>
@@ -123,7 +123,7 @@ prov:agent</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
+      <x>420</x>
       <y>450</y>
       <w>100</w>
       <h>80</h>
@@ -138,7 +138,7 @@ prov:agent</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
+      <x>240</x>
       <y>480</y>
       <w>80</w>
       <h>50</h>
@@ -152,7 +152,7 @@ prov:agent</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
+      <x>330</x>
       <y>480</y>
       <w>80</w>
       <h>50</h>
@@ -166,7 +166,7 @@ prov:agent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
+      <x>360</x>
       <y>360</y>
       <w>30</w>
       <h>140</h>
@@ -177,7 +177,7 @@ prov:agent</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
+      <x>240</x>
       <y>310</y>
       <w>80</w>
       <h>60</h>
@@ -191,7 +191,7 @@ material)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
+      <x>330</x>
       <y>310</y>
       <w>80</w>
       <h>60</h>
