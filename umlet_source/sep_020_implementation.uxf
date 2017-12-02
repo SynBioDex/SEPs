@@ -108,15 +108,4 @@ build
 or ModuleDefinition</panel_attributes>
     <additional_attributes/>
   </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>500</x>
-      <y>580</y>
-      <w>30</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>*≠*</panel_attributes>
-    <additional_attributes/>
-  </element>
 </diagram>
