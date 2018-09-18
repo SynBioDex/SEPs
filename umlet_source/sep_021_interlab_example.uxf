@@ -24,14 +24,14 @@
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>7</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>1001</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1245</x>
+      <y>885</y>
+      <w>240</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ExperimentalData
 --
@@ -43,37 +43,24 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>742</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1235</x>
+      <y>1175</y>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Experiment
 --
 ...
--name: "Characterization 
-              of Interlab Part"</panel_attributes>
+-name: "Characterization of Interlab Part"</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1169</x>
-      <y>868</y>
-      <w>189</w>
-      <h>147</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-experimentalData</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>854</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1115</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -84,24 +71,12 @@ experimentalData</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1015</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1239</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1375</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -112,38 +87,27 @@ attachment</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1344</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>483</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1285</x>
+      <y>745</y>
+      <w>165</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Implementation
 --
 ...
--name: "Interlab Study Construct"</panel_attributes>
+-name: "Interlab Study 
+             Construct"</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1645</x>
-      <y>749</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1050</x>
+      <y>535</y>
+      <w>630</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>Activity
 --
@@ -152,38 +116,12 @@ attachment</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1365</x>
-      <y>791</y>
-      <w>294</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-prov:wasGeneratedBy</panel_attributes>
-    <additional_attributes>10.0;30.0;400.0;30.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1421</x>
-      <y>483</y>
-      <w>364</w>
-      <h>133</h>
-    </coordinates>
-    <panel_attributes>Implementation
---
-...
--name: "Negative Control"</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>588</x>
-      <y>483</y>
-      <w>364</w>
-      <h>133</h>
+      <x>720</x>
+      <y>745</y>
+      <w>165</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Implementation
 --
@@ -192,119 +130,12 @@ prov:wasGeneratedBy</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1169</x>
-      <y>609</y>
-      <w>224</w>
-      <h>147</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-
-
-
-prov:wasDerivedFrom</panel_attributes>
-    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1169</x>
-      <y>609</y>
-      <w>308</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;180.0;420.0;180.0;420.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>882</x>
-      <y>609</y>
-      <w>308</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>420.0;180.0;10.0;180.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>399</x>
-      <y>413</y>
-      <w>504</w>
-      <h>602</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-prov:wasGeneratedBy</panel_attributes>
-    <additional_attributes>20.0;840.0;10.0;10.0;700.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>882</x>
-      <y>413</y>
-      <w>21</w>
-      <h>84</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1169</x>
-      <y>378</y>
-      <w>21</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1456</x>
-      <y>427</y>
-      <w>21</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
-      <y>1001</y>
-      <w>364</w>
-      <h>133</h>
+      <x>680</x>
+      <y>885</y>
+      <w>240</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ExperimentalData
 --
@@ -316,10 +147,10 @@ prov:wasGeneratedBy</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>56</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>550</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -332,22 +163,22 @@ prov:wasGeneratedBy</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>217</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
+      <x>665</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>220.0;10.0;220.0;60.0;10.0;60.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>810</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -360,22 +191,22 @@ attachment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
+      <x>820</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;220.0;60.0;220.0;130.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1799</x>
-      <y>1001</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1785</x>
+      <y>885</y>
+      <w>240</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ExperimentalData
 --
@@ -387,10 +218,10 @@ attachment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1645</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1655</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -401,24 +232,12 @@ attachment</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1806</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2030</x>
-      <y>1232</y>
-      <w>364</w>
-      <h>133</h>
+      <x>1915</x>
+      <y>1025</y>
+      <w>240</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Attachment
 --
@@ -431,84 +250,496 @@ attachment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2135</x>
-      <y>1127</y>
-      <w>126</w>
-      <h>119</h>
+      <x>915</x>
+      <y>665</y>
+      <w>330</w>
+      <h>805</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           experimentalData
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                    experimentalData</panel_attributes>
+    <additional_attributes>640.0;1130.0;310.0;1130.0;310.0;460.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1195</x>
+      <y>600</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Usage
+--
+...
+-roles: [build]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1825</x>
+      <y>745</y>
+      <w>165</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Implementation
+--
+...
+-name: "Negative Control"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1315</x>
+      <y>600</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Usage
+--
+...
+-roles: [build]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1435</x>
+      <y>600</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Usage
+--
+...
+-roles: [build]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>795</x>
+      <y>660</y>
+      <w>460</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+entity</panel_attributes>
+    <additional_attributes>900.0;10.0;900.0;130.0;10.0;130.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>605</y>
+      <w>205</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+ agent</panel_attributes>
+    <additional_attributes>390.0;70.0;150.0;70.0;150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>600</y>
+      <w>165</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Agent
+--
+...
+-name: "Plate Reader"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1825</x>
+      <y>600</y>
+      <w>165</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Agent
+--
+...
+-name: "Flow Cytometer"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1075</x>
+      <y>600</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Association
+--
+...
+-roles: [test]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1445</x>
+      <y>750</y>
+      <w>205</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+ prov:wasDerivedFrom</panel_attributes>
+    <additional_attributes>80.0;330.0;130.0;330.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>525</x>
+      <y>530</y>
+      <w>535</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  prov:wasGeneratedBy</panel_attributes>
+    <additional_attributes>310.0;840.0;10.0;840.0;10.0;30.0;1050.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1090</x>
+      <y>890</y>
+      <w>165</w>
+      <h>325</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    experimentalData</panel_attributes>
+    <additional_attributes>290.0;630.0;10.0;630.0;10.0;10.0;310.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1490</x>
+      <y>880</y>
+      <w>305</w>
+      <h>355</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+experimentalData</panel_attributes>
+    <additional_attributes>10.0;670.0;290.0;670.0;290.0;30.0;590.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1230</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 attachment</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>220.0;10.0;220.0;80.0;10.0;80.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>427</y>
-      <w>847</w>
-      <h>588</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-prov:wasGeneratedBy</panel_attributes>
-    <additional_attributes>890.0;820.0;890.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>469</x>
-      <y>378</y>
-      <w>721</w>
-      <h>637</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-
-prov:wasGeneratedBy</panel_attributes>
-    <additional_attributes>940.0;890.0;940.0;740.0;10.0;740.0;10.0;10.0;1010.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>315</x>
-      <y>798</y>
-      <w>707</w>
-      <h>217</h>
+      <x>1385</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-experimentalData</panel_attributes>
-    <additional_attributes>990.0;30.0;10.0;30.0;10.0;290.0</additional_attributes>
+attachment</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;220.0;80.0;220.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1358</x>
-      <y>847</y>
-      <w>455</w>
-      <h>238</h>
+      <x>1925</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+attachment</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;220.0;60.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1770</x>
+      <y>960</y>
+      <w>120</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+attachment</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;60.0;10.0;60.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1555</x>
+      <y>600</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Association
+--
+...
+-roles: [test]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>660</y>
+      <w>440</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+entity</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;860.0;110.0;860.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1655</x>
+      <y>510</y>
+      <w>695</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 
-experimentalData</panel_attributes>
-    <additional_attributes>10.0;10.0;260.0;10.0;260.0;320.0;630.0;320.0</additional_attributes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ prov:wasGeneratedBy</panel_attributes>
+    <additional_attributes>740.0;880.0;1110.0;880.0;1110.0;10.0;10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1985</x>
+      <y>750</y>
+      <w>205</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+ prov:wasDerivedFrom</panel_attributes>
+    <additional_attributes>80.0;330.0;130.0;330.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>750</y>
+      <w>145</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+ prov:wasDerivedFrom</panel_attributes>
+    <additional_attributes>60.0;330.0;10.0;330.0;10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>540</y>
+      <w>380</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ prov:wasGeneratedBy</panel_attributes>
+    <additional_attributes>10.0;820.0;480.0;820.0;480.0;10.0;400.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1360</x>
+      <y>660</y>
+      <w>45</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+ entity</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>605</y>
+      <w>185</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+ agent</panel_attributes>
+    <additional_attributes>10.0;60.0;210.0;60.0;210.0;10.0;350.0;10.0</additional_attributes>
   </element>
 </diagram>
