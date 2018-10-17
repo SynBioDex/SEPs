@@ -23,7 +23,7 @@
     <panel_attributes>*ComponentDefinition*
 --
 -name : "Thiamine Hydrochloride"
--types : [chebi:49105]
+-types : [chebi:CHEBI:49105]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -38,7 +38,7 @@
     <panel_attributes>*ComponentDefinition*
 --
 -name : "Dextrose (D-Glucose)"
--types : [chebi:17634]
+-types : [chebi:CHEBI:17634]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -53,7 +53,7 @@
     <panel_attributes>*ComponentDefinition*
 --
 -name : "Casamino Acids"
--types : [chebi:33709]
+-types : [chebi:CHEBI:33709]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -62,28 +62,28 @@
     <coordinates>
       <x>1290</x>
       <y>1090</y>
-      <w>170</w>
+      <w>200</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>*ComponentDefinition*
 --
 -name : "MgSO4"
--types : [chebi:32599]
+-types : [chebi:CHEBI:32599]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>810</x>
+      <x>790</x>
       <y>1090</y>
-      <w>170</w>
+      <w>190</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>*ComponentDefinition*
 --
 -name : "CaCl2"
--types : [chebi:3312]
+-types : [chebi:CHEBI:3312]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -98,7 +98,7 @@
     <panel_attributes>*ModuleDefinition*
 --
 -name : "Teknova M1902"
--roles : [ncit:C85504]
+-roles : [obo:NCIT_C85504]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -124,7 +124,7 @@
     <panel_attributes>*ModuleDefinition*
 --
 -name : "M9 Glucose CAA"
--role : [ncit:C85504]
+-role : [obo:NCIT_C85504]
 ...</panel_attributes>
     <additional_attributes/>
   </element>
@@ -175,26 +175,26 @@
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>710</x>
+      <x>690</x>
       <y>980</y>
-      <w>200</w>
+      <w>220</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;
 definition</panel_attributes>
-    <additional_attributes>150;30;150;80;60;80;60;220;180;220;180;250</additional_attributes>
+    <additional_attributes>170;30;170;80;60;80;60;220;200;220;200;250</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>1340</x>
       <y>980</y>
-      <w>214</w>
+      <w>244</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;
 definition</panel_attributes>
-    <additional_attributes>60;30;60;80;160;80;160;220;30;220;30;250</additional_attributes>
+    <additional_attributes>60;30;60;80;190;80;190;220;30;220;30;250</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
