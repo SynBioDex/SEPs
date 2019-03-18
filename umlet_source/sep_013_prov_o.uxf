@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>740</x>
+      <y>760</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*
+--
+bg=red
+...
+-name : "myPlasmid"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>800</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+ components</panel_attributes>
+    <additional_attributes>130;30;130;70;30;70;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>650</x>
+      <y>900</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+bg=orange
+...
+name: "insert"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>850</x>
+      <y>900</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+bg=orange
+...
+name: "backbone"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>800</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;70;130;70;130;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>1110</x>
+      <y>960</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Range*
+--
+bg=orange
+...
+start: 1
+end: 100
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>1220</x>
+      <y>730</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Range*
+--
+bg=yellow
+...
+start: 151
+end: 240
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>1110</x>
+      <y>730</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Range*
+--
+bg=yellow
+...
+start: 1
+end: 100
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>1220</x>
+      <y>960</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Range*
+--
+bg=orange
+...
+start: 111
+end: 200
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>880</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+   sourceLocations</panel_attributes>
+    <additional_attributes>30;50;190;50;190;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>620</x>
+      <y>940</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+definition</panel_attributes>
+    <additional_attributes>100;30;100;70;30;70;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>640</x>
+      <y>670</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceAnnotation*
+--
+bg=yellow
+...
+name: "insert"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>840</x>
+      <y>670</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceAnnotation*
+--
+bg=yellow
+...
+name: "backbone"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>670</x>
+      <y>590</y>
+      <w>192</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+            sequenceAnnotations</panel_attributes>
+    <additional_attributes>150;170;150;50;50;50;50;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>610</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>30;150;30;30;130;30;130;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>490</x>
+      <y>700</y>
+      <w>180</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  component</panel_attributes>
+    <additional_attributes>150;30;70;30;70;210;160;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>700</y>
+      <w>138</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  component</panel_attributes>
+    <additional_attributes>40;30;80;30;80;210;30;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>1040</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*
+--
+bg=pink
+...
+-name : "cargo"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>910</x>
+      <y>1040</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*
+--
+bg=pink
+...
+-name : "backbone"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>890</x>
+      <y>940</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+definition</panel_attributes>
+    <additional_attributes>30;30;30;70;100;70;100;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>900</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;300;30;300;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>970</x>
+      <y>650</y>
+      <w>232</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+locations</panel_attributes>
+    <additional_attributes>30;50;180;50;180;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>970</x>
+      <y>670</y>
+      <w>310</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;290;30;290;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>780</x>
+      <y>1110</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+*(length 200)*
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>1030</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+sequences
+
+</panel_attributes>
+    <additional_attributes>150;50;70;50;70;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>440</x>
+      <y>1110</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+*(length 50)*
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>420</x>
+      <y>1030</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+sequences</panel_attributes>
+    <additional_attributes>150;50;70;50;70;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>590</x>
+      <y>830</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*Sequence*
+*(length 240)*
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>570</x>
+      <y>750</y>
+      <w>190</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+                   sequences</panel_attributes>
+    <additional_attributes>170;50;70;50;70;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>420</x>
+      <y>730</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Range*
+--
+bg=yellow
+...
+start: 101
+end: 150
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>650</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+locations</panel_attributes>
+    <additional_attributes>240;50;60;50;60;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>720</x>
+      <y>380</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Activity*
+--
+...
+-name : "in silico assembly"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>850</x>
+      <y>520</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Usage*
+--
+bg=orange
+...
+roles: design
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>650</x>
+      <y>520</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Usage*
+--
+bg=orange
+...
+roles: design
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>420</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>30;30;30;70;130;70;130;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>420</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+ usages</panel_attributes>
+    <additional_attributes>130;30;130;70;30;70;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>450</x>
+      <y>450</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Association*
+--
+...
+roles: design
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>370</y>
+      <w>290</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+association</panel_attributes>
+    <additional_attributes>270;50;70;50;70;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>530</y>
+      <w>340</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  entity</panel_attributes>
+    <additional_attributes>320;30;50;30;50;520;240;520</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>530</y>
+      <w>412</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  entity</panel_attributes>
+    <additional_attributes>30;30;370;30;370;520;110;520</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>1100</x>
+      <y>310</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Plan*
+--
+bg=orange
+...
+name: "Gibson assembly"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>510</x>
+      <y>310</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Agent*
+--
+...
+name: "assembly software"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>870</x>
+      <y>360</y>
+      <w>276</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  wasGeneratedBy
+</panel_attributes>
+    <additional_attributes>30;440;200;440;200;30;50;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>230</y>
+      <w>880</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  plan</panel_attributes>
+    <additional_attributes>120;280;50;280;50;50;860;50;860;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>290</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+  agent</panel_attributes>
+    <additional_attributes>90;190;50;190;50;30;150;30</additional_attributes>
+  </element>
+</diagram>
