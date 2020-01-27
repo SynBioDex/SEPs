@@ -2,111 +2,47 @@
 <diagram program="umlet" version="14.2">
   <zoom_level>10</zoom_level>
   <element>
-    <type>com.baselet.element.old.element.Class</type>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>430</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+location
+   0..*</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>430</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+sourceLocation
+   0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;40.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
     <coordinates>
       <x>400</x>
-      <y>400</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>*FunctionalComponent*
---
--direction[1] : URI
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>200</x>
-      <y>400</y>
-      <w>190</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>*Component*
---
--roles[0..*] : URI
--roleIntegration[0..1] : URI
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>260</x>
-      <y>320</y>
-      <w>150</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>130;30;130;60;30;60;30;80</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>380</x>
-      <y>320</y>
-      <w>130</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;60;110;60;110;80</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>320</x>
-      <y>300</y>
-      <w>170</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>*/ComponentInstance/*
---
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>500</x>
-      <y>150</y>
+      <y>490</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>/*Identified*/</panel_attributes>
+    <panel_attributes>*Location*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Relation</type>
+    <id>UMLClass</id>
     <coordinates>
-      <x>520</x>
-      <y>150</y>
-      <w>50</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;60</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>20</x>
-      <y>280</y>
-      <w>320</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-definition
- 1</panel_attributes>
-    <additional_attributes>300;50;70;50;70;90</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>10</x>
-      <y>370</y>
+      <x>160</x>
+      <y>470</y>
       <w>170</w>
       <h>30</h>
     </coordinates>
@@ -114,105 +50,128 @@ definition
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Relation</type>
+    <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>440</y>
-      <w>166</w>
-      <h>140</h>
+      <x>230</x>
+      <y>390</y>
+      <w>140</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-        sourceLocations
-                        0..*</panel_attributes>
-    <additional_attributes>90;30;90;120</additional_attributes>
+
+definition
+1</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0;10.0;80.0</additional_attributes>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Class</type>
+    <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>560</y>
-      <w>90</w>
+      <x>510</x>
+      <y>280</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-roles[0..*] : URI
+-direction[1] : URI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>220</y>
+      <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*Location*
-
-
-
-</panel_attributes>
+    <panel_attributes>*Identified*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Class</type>
+    <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>300</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>*/ComponentReference/*
---
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>460</x>
-      <y>210</y>
+      <x>660</x>
+      <y>380</y>
       <w>170</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>*/SubComponent/*
+    <panel_attributes>*ComponentReference*
 --
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Relation</type>
+    <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>280</y>
-      <w>160</w>
-      <h>94</h>
+      <x>590</x>
+      <y>240</y>
+      <w>30</w>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>330</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;30.0;10.0;30.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>330</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;130.0;30.0;130.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>380</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*ComponentInstance*
+--
+-roleIntegration[0..1] : URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>390</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 inChildOf
- 1</panel_attributes>
-    <additional_attributes>140;50;30;50</additional_attributes>
+1</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Relation</type>
+    <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>230</y>
-      <w>190</w>
-      <h>90</h>
+      <x>670</x>
+      <y>310</y>
+      <w>320</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>170;30;170;50;30;50;30;70</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>530</x>
-      <y>230</y>
-      <w>190</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;50;170;50;170;70</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>600</x>
-      <y>210</y>
-      <w>302</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 subComponent
-        1</panel_attributes>
-    <additional_attributes>180;120;230;120;230;30;30;30</additional_attributes>
+    1</panel_attributes>
+    <additional_attributes>160.0;100.0;200.0;100.0;200.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
