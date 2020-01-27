@@ -71,7 +71,7 @@ definition
       <w>170</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>*SubComponent*
+    <panel_attributes>*ComponentInstance*
 --
 -roles[0..*] : URI
 -direction[1] : URI</panel_attributes>
@@ -143,7 +143,7 @@ definition
       <w>200</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>*ComponentInstance*
+    <panel_attributes>*SubComponent*
 --
 -roleIntegration[0..1] : URI
 </panel_attributes>

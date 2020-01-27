@@ -71,7 +71,7 @@ definition
       <w>170</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>*SubComponent*
+    <panel_attributes>*ComponentInstance*
 --
 -roles[0..*] : URI
 -direction[1] : URI</panel_attributes>
@@ -142,7 +142,7 @@ definition
       <w>200</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>*ComponentInstance*
+    <panel_attributes>*SubComponent*
 --
 -roleIntegration[0..1] : URI
 </panel_attributes>
@@ -166,11 +166,11 @@ inChildOf
     <coordinates>
       <x>670</x>
       <y>310</y>
-      <w>320</w>
+      <w>350</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-subComponent
+componentInstance
     1</panel_attributes>
     <additional_attributes>160.0;100.0;200.0;100.0;200.0;10.0;10.0;10.0</additional_attributes>
   </element>
