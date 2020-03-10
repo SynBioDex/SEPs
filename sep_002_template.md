@@ -15,6 +15,7 @@ SEP                     | <leave empty>
 **Status**             | Draft
 **Created**          | 08-Oct-2015 <current date>
 **Last modified**  | 08-Oct-2015 <leave empty if this is the first submission>
+**Issue**          | [#2](https://github.com/SynBioDex/SEPs/issues/2)
 
 Abstract
 -----------

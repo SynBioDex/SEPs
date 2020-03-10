@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>350</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+location
+   0..*</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>350</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+sourceLocation
+   0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;40.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>410</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>*Location*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>390</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>*ComponentDefinition*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>310</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+
+definition
+1</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>200</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*ComponentInstance*
+--
+-roles[0..*] : URI
+-direction[1] : URI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>140</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>*Identified*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>300</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*ExternalReference*
+--
+-types[1..*] : URI
+-definition[1] : URI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>160</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>250</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;30.0;10.0;30.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>250</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;120.0;30.0;120.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>300</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-roleIntegration[0..1] : URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
