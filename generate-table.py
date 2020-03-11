@@ -42,6 +42,8 @@ for file_name in os.listdir(base_dir):
         values["SEP"] = base_name.lower().replace('sep_', '')
         data.append(values)
 
+data.sort(key=lambda x: x['SEP'])
+
 fieldnames = ["SEP", "Type", "SBOL Version", "Status", "Issue", "Title", "Replaces",  "Created", "Last modified",
               "Editor",  "Authors"]
 
