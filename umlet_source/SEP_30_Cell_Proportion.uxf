@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>30</y>
+      <w>350</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Measure*
+--
+hasNum.Value: 50
+hasUnit: om:percentage
+types: fraction of an entity pool [SBO:0000470]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>100</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Module*
+--
+...
+name: Cell System 1
+fg=gray
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>100</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Module*
+--
+...
+name: Cell System 2
+fg=gray
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>20</y>
+      <w>330</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*ModuleDefinition*
+--
+...
+name: Multicellular System
+role: functional compartment [SBO:0000289]
+layer=-1
+fg=gray
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>30</y>
+      <w>350</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Measure*
+--
+hasNum.Value: 50
+hasUnit: om:percentage
+types: fraction of an entity pool [SBO:0000470]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>100</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+ Measures
+fg=#3c7a00</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;280.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>100</y>
+      <w>350</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;&gt;&gt;&gt;&gt;
+ Measures
+fg=#3c7a00</panel_attributes>
+    <additional_attributes>270.0;10.0;270.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>
