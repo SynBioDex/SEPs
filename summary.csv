@@ -48,3 +48,4 @@ SEP,Type,SBOL Version,Status,Issue,Title,Replaces,Created,Last modified,Editor,A
 049,Data Model,SBOL 3.0.1,Draft,https://github.com/SynBioDex/SEPs/issues/104,Higher-Order Interactions,,8-Oct-2020,,TBD,Jake Beal (jakebeal@ieee.org)
 050,Data Model,SBOL 3.0.1,Draft,https://github.com/SynBioDex/SEPs/issues/105,Remove Namespace object,,28-Oct-2020,28-Oct-2020,James McLaughlin (james@mclgh.net),Chris Myers (chris.myers@colorado.edu)
 051,Data Model,SBOL 3.0.1,Draft,,Rename TopLevel to AggregateRoot,,11-Nov-2020,11-Nov-2020,,James McLaughlin (james@mclgh.net)
+052,Procedure,,Draft,,SBOL Governance Update,,11-Jan-2021,11-Jan-2021,,[SBOL Editors](sbol-editors@googlegroups.com)
