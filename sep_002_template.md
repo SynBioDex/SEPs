@@ -11,10 +11,10 @@ SEP                     | <leave empty>
 **Editor**            | <leave empty>
 **Type**               | <choose from: Procedure OR Data Model>
 **SBOL Version** | <SBOL version this proposal should apply to; remove line if Type==Procedure>
-**Replaces**        | <list SEP(s) this proposal would replace, otherwise remove line. E.g. SEP #1> 
+**Replaces**        | <list SEP(s) this proposal would replace, otherwise remove line. E.g. SEP #1>
 **Status**             | Draft
 **Created**          | 08-Oct-2015 <current date>
-**Last modified**  | 08-Oct-2015 <leave empty if this is the first submission>
+**Last modified**  | 15-Jan-2021 <leave empty if this is the first submission>
 **Issue**          | [#2](https://github.com/SynBioDex/SEPs/issues/2)
 
 Abstract
@@ -41,7 +41,7 @@ Table of Contents  <remove TOC if SEP is rather short>
 1. Rationale <a name="rationale"></a>
 ----------------
 
-< insert motivation / rational, keep it brief >
+< insert motivation / rationale, keep it brief >
 
 
 2. Specification <a name="specification"></a>
