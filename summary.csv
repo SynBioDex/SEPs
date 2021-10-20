@@ -50,3 +50,4 @@ SEP,Type,SBOL Version,Status,Issue,Title,Replaces,Created,Last modified,Editor,A
 051,Data Model,SBOL 3.0.1,Withdrawn,,Rename TopLevel to AggregateRoot,,11-Nov-2020,11-Nov-2020,,James McLaughlin (james@mclgh.net)
 052,Procedure,,Accepted,,SBOL Governance Update,,11-Jan-2021,15-Feb-2021,,[SBOL Editors](sbol-editors@googlegroups.com)
 053,Data Model,SBOL 3.0.1,Draft,https://github.com/SynBioDex/SEPs/issues/111,Use existing SO terms for Feature orientation,,25-Mar-2021,25-Mar-2021,,James Scott-Brown (james@jamesscottbrown.com)
+054,Data Model,SBOL 3.1,Draft,https://github.com/SynBioDex/SEPs/issues/112,Managing genetic design packages,None,17-Oct-2021,,,Jacob Beal (jakebeal@ieee.org)
