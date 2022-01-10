@@ -18,7 +18,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Automatically update summary.csv" -a
+        git add summary.csv
+        git diff-index --quiet HEAD . || git commit -m "Automatically update summary.csv"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
