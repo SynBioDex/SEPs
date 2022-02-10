@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
-      <y>290</y>
+      <x>20</x>
+      <y>250</y>
       <w>430</w>
       <h>50</h>
     </coordinates>
@@ -17,8 +17,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>310</y>
+      <x>540</x>
+      <y>270</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -28,22 +28,22 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>290</y>
-      <w>430</w>
+      <x>750</x>
+      <y>250</y>
+      <w>440</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>*SequenceFeature*
 --
--role: [SO:restriction_enzyme_five_prime_single_strand_overhang]</panel_attributes>
+-role: [SO:restriction_enzyme_three_prime_single_strand_overhang]</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>230</y>
-      <w>1200</w>
+      <x>0</x>
+      <y>190</y>
+      <w>1210</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>*Component*
@@ -54,8 +54,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>300</y>
+      <x>440</x>
+      <y>260</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -67,8 +67,8 @@ Precedes</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>300</y>
+      <x>650</x>
+      <y>260</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -80,8 +80,8 @@ Precedes</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>330</y>
+      <x>590</x>
+      <y>290</y>
       <w>100</w>
       <h>90</h>
     </coordinates>
@@ -92,8 +92,8 @@ instanceOf</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>400</y>
+      <x>510</x>
+      <y>360</y>
       <w>180</w>
       <h>70</h>
     </coordinates>

@@ -11,7 +11,7 @@
     </coordinates>
     <panel_attributes>*SequenceFeature*
 --
--role: [SO:restriction_enzyme_five_prime_single_strand_overhang]
+-role: [SO:restriction_enzyme_three_prime_single_strand_overhang]
 -hasLocation: 729-732</panel_attributes>
     <additional_attributes/>
   </element>
