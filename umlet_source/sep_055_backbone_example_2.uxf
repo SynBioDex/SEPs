@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>290</y>
+      <w>320</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "SpeI_recognition_site"
+-role: [SO:restriction_enzyme_recognition_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-role: [SO:insertion_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>130</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>220</y>
+      <w>1240</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00001"
+-role: [SO:0001954]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>120</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+meets</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>120</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+strictly
+Precedes</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>220</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00000"
+-role: [SO:restriction_enzyme_region]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>150</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>130</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>10</y>
+      <w>670</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "pSB1C3"
+-type: [SBO:DNA, SO:circular]
+-role: [SO:plasmid_vector]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>290</y>
+      <w>320</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "NotI_recognition_site"
+-role: [	SO:restriction_enzyme_recognition_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>290</y>
+      <w>320</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "PstI_recognition_site"
+-role: [	SO:restriction_enzyme_recognition_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>410</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "SpeI_cut_site"
+-role: [SO:sticky_end_restriction_enzyme_cleavage_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>410</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "NotI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>410</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "PstI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>350</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+contains</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>350</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+contains</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>350</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+contains</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>310</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+strictly
+Precedes</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>120</y>
+      <w>510</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0;490.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>310</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+overlaps</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

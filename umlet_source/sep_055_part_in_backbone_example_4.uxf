@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1870</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 750-2776</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 1-22</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>30</y>
+      <w>1290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_E1010_in_pSB1C3"
+-type: [SBO:DNA, SO:circular]
+-role: [SO:plasmid_vector]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1940</x>
+      <y>160</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;260.0;50.0;260.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2090</x>
+      <y>240</y>
+      <w>220</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "pSB1C3_backbone"
+-type: [SBO:DNA]
+-role: [SO:replicon_vector]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>310</y>
+      <w>430</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-role: [SO:restriction_enzyme_five_prime_single_strand_overhang]
+-hasLocation: 1-4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>440</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_E1010"
+-role: [SO:CDS]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>370</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>330</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 7-712</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>240</y>
+      <w>1100</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_E1010_in_pSB1C3_XbaI_PstI_extract"
+-role: [SO:engineered_insert]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>130</y>
+      <w>600</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>580.0;20.0;10.0;20.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>240</y>
+      <w>420</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00000"
+-role: [SO:restriction_enzyme_region]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1640</x>
+      <y>240</y>
+      <w>420</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00001"
+-role: [SO:restriction_enzyme_region]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>310</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "XbaI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1660</x>
+      <y>310</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "PstI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>310</y>
+      <w>430</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-role: [SO:restriction_enzyme_five_prime_single_strand_overhang]
+-hasLocation: 729-732</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 729-749</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 23-728</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>160</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1290</x>
+      <y>130</y>
+      <w>580</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;20.0;560.0;20.0;560.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1550</x>
+      <y>330</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+contains</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>330</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+contains</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
