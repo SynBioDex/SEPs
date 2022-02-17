@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>340</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "SpeI_recognition_site"
+-role: [SO:restriction_enzyme_recognition_site]
+-hasLocation: 2-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>140</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-role: [SO:insertion_site]
+-hasLocation: 0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>160</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 1-21
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>270</y>
+      <w>1220</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00001"
+-role: [SO:restriction_enzyme_region]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1250</x>
+      <y>270</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_G00000"
+-role: [SO:restriction_enzyme_region]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>200</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>160</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 2049-2070</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>50</y>
+      <w>560</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "pSB1C3"
+-type: [SBO:DNA, SO:circular]
+-role: [SO:plasmid_vector]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>340</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "NotI_recognition_site"
+-role: [	SO:restriction_enzyme_recognition_site]
+-hasLocation: 9-16 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>340</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "PstI_recognition_site"
+-role: [	SO:restriction_enzyme_recognition_site]
+-hasLocation: 16-21</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>440</y>
+      <w>380</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "SpeI_cut_site"
+-role: [SO:sticky_end_restriction_enzyme_cleavage_site]
+-hasLocation: 3-6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>440</y>
+      <w>380</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "NotI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]
+-hasLocation: 11-14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>440</y>
+      <w>380</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-displayId: "PstI_cut_site"
+-role: [	SO:sticky_end_restriction_enzyme_cleavage_site]
+-hasLocation: 17-20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>170</y>
+      <w>550</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0;530.0;100.0</additional_attributes>
+  </element>
+</diagram>

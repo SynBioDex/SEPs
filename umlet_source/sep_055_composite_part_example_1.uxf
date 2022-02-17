@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>130</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 1-12</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>240</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_B0034"
+-role: [SO:ribosome_entry_site]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>240</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_E1010"
+-role: [SO:CDS]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>170</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>130</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*SubComponent*
+--
+-hasLocation: 19-724</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>680</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>*Component*
+--
+-displayId: "BBa_K093005"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>110</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*SequenceFeature*
+--
+-role: [SO:restriction_enzyme_assembly_scar]
+-hasLocation: 13-18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>170</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+instanceOf</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>
